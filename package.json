@@ -1,0 +1,32 @@
+{
+  "name": "invest-tracker-api",
+  "version": "1.0.0",
+  "description": "API to track and store investments to display results in a web app later on",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmamani93/invest-tracker-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmamani93/invest-tracker-api/issues"
+  },
+  "homepage": "https://github.com/mmamani93/invest-tracker-api#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "node-schedule": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.23",
+    "@types/node-fetch": "^2.6.12",
+    "@types/node-schedule": "^2.1.7",
+    "typescript": "^5.8.3"
+  }
+}
